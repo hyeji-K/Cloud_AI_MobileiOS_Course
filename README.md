@@ -20,9 +20,9 @@
 
 ### 📚 Detail Contents
 > iOS Programming
-- Swift 소개 및 변수, 상수
-- 조건문, 반복문, 자료향
-- 함수 기본
+- [Swift 소개 및 변수와 상수]()
+- [함수 기본, 조건문, 반복문]()
+- [자료형, 함수]()
 - Class
 - Structure, 열거형, 옵셔널
 - UIKit Framework
