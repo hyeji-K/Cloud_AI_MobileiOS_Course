@@ -1,5 +1,5 @@
 # Cloud_AI_MobileiOS_Course
-## 📌 Learning Goal
+### 📌 Learning Goal
 - iOS 프로그래밍: Swift 문법 이해 및 Xcode 활용
 (UIKit, Open API, Django를 이용한 API 구현, iOS 앱 배포 및 관리)
 - Cloud 기술: 클라우드에 대한 이해 및 실습
@@ -8,17 +8,17 @@
 - DevOps: Git 및 GitHub 활용, Azure DevOps 기반 서비스 배포 자동화 
 - 팀 프로젝트
 
-## 📋 Curriculum
+### 📋 Curriculum
 - iOS Programming 
 - AI Service 
 - Cloud
 - DevOps
 - Team Project
 
-## 🗓 Term Dates
+### 🗓 Term Dates
 - 2021.08.18 ~ 2021.12.07
 
-## 📚 Detail Contents
+### 📚 Detail Contents
 > iOS Programming
 - Swift 소개 및 변수, 상수
 - 조건문, 반복문, 자료향
