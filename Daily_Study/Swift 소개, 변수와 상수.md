@@ -8,7 +8,7 @@
     - interactive
 
 ### 상수와 변수
-> 상수(Constant)
+#### <u>상수(Constant)</u>
 - 값을 한번 저장하면 바꿀 수 없음 
 
 ```swift
