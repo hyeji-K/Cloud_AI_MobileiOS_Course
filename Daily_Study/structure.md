@@ -6,12 +6,9 @@
 - 속성과 메소드를 가질 수 있음
 - 첫글자는 대문자
 
-<aside>
-💡 class와 structure의 차이?
+</br>
 
-</aside>
-
-- 예
+- example
 
 ```swift
 struct Person {
@@ -53,10 +50,10 @@ person2.info() // 이름: 띠용, 나이: 15, 성별: 남, 키: 171.7
 person1.info() // 이름: 홍길동, 나이: 15, 성별: 남, 키: 171.7
 ```
 
-<aside>
-💡 클래스는 주소값(저장공간)이 복사되지만, 구조체는 똑같은 것이 복사됨 (저장공간이 다름)
 
-</aside>
+`💡 클래스는 주소값(저장공간)이 복사되지만, 구조체는 똑같은 것이 복사됨 (저장공간이 다름)`
+
+</br>
 
 ### 클래스와 구조체의 차이점
 
@@ -66,7 +63,9 @@ person1.info() // 이름: 홍길동, 나이: 15, 성별: 남, 키: 171.7
 - 구조체는 값 타입(Value Type) → 값만 복사됨
 - Int, Double, Boolean, Array, Dictionary ... 등이 struct (구조체와 같은 특성을 가지고 있음)
 
-### 언제 구조체를 쓰나
+</br>
+
+### 언제 구조체를 사용하는가
 
 - 저장하는 데이터가 개별성을 가지는 경우(Person, Student)
 - 멤버변수로 Array와 같이 많은 데이터를 가지지 않는 경우
@@ -74,11 +73,13 @@ person1.info() // 이름: 홍길동, 나이: 15, 성별: 남, 키: 171.7
 - 공유될 필요가 없는 경우
 - 빈번히 생성될 경우
 
-<aside>
-💡 데이터를 다뤄야 하는 경우 → 구조체 사용
-UIKit에서 class를 대부분 사용
 
-</aside>
+`💡 데이터를 다뤄야 하는 경우 → 구조체 사용`
+
+`💡 UIKit에서 class를 대부분 사용`
+
+</br>
+
 
 # Enumeration(열거형)
 
@@ -86,6 +87,8 @@ UIKit에서 class를 대부분 사용
 - 객체를 생성하지 않음.
 - 타입이 정해진 후에는 타입이 생략이 가능.
 - 경우가 몇가지로 정해져 있는 경우
+
+</br>
 
 - 정의
 
@@ -140,13 +143,15 @@ enum Rank: Int {
 print(Rank.four.rawValue) // 4
 ```
 
+</br>
+
 # Extension (확장)
 
 - 클래스나 구조체 확장
 - 상속 X
 - 1회성으로 확장이 필요할때 사용 → 자주 사용할때는 상속 받아서 사용
 
-- Double은 Structure임.
+- Double은 Structure임
 
 ```swift
 extension Double {
@@ -182,6 +187,9 @@ var value = 3
 value.square()
 print(value) // 9
 ```
+
+
+</br>
 
 ### Protocol
 
@@ -238,18 +246,18 @@ process1.execute(cmd: "Start")
 process1.showPort(port: 8)
 ```
 
+
+</br>
+
 # Optional
-
-<aside>
-💡 nil이란 "값이 없다"의 의미
-
-</aside>
 
 - Swift는 안정성(Safety)를 중요하게 생각하는 언어로 기본적으로 Swift에서는 변수나 객체가 nil이 될 수 없다.
 - nil이 될 수 있는 변수나 객체는 옵셔널 변수, 옵셔널 객체로 선언시에 타입뒤에 "?"를 넣는다.
 - 옵셔널로 감싼(wrapping) 변수끼리의 +, -와 같은 기본 연산은 불가능하므로 옵셔널 변수를 "!"로 언랩핑(unwrapping)하여 일반 변수로 만들어서 사용해야한다.
 
-앱이 팅기는 경우 중 한 가지 → 값이 nil에 접근할때 
+`💡 nil이란 "값이 없다"의 의미`
+
+`💡 앱이 팅기는 경우 중 한 가지 → 값이 nil에 접근할때`
 
 ```swift
 var optInt: Int?
@@ -293,13 +301,13 @@ var temp4: Int?
 print(temp4!)
 ```
 
-<aside>
-💡 값이 nil인 것을 언래핑하면 오류남
 
-</aside>
+`💡 값이 nil인 것을 언래핑하면 오류남`
 
-- 언래핑을 위한 문법을 제공
-    - if let
+</br>
+
+#### 언래핑을 위한 문법을 제공
+- if let
 
 ```swift
 var temp2: Int? = 123
@@ -316,12 +324,12 @@ if let val = temp2 {
 }
 ```
 
-<aside>
-💡 temp2 값이 nil이 아니면 val 에 넣어줘서 결과 출력. 
-val은 if 블럭 내부에서만 사용가능
-nil이 아닐때만 실행할때 사용한다.
 
-</aside>
+`💡 temp2 값이 nil이 아니면 val 에 넣어줘서 결과 출력`
+
+`💡 val은 if 블럭 내부에서만 사용가능, nil이 아닐때만 실행할때 사용한다.`
+
+</br>
 
 - guard let
 
@@ -336,12 +344,11 @@ func guardLet() {
 guardLet() // 변환된 값은 BTS입니다.
 ```
 
-<aside>
-💡 값이 nil이 아니면 val 에 값을 넣어주고 nil이면 return 값을 반환
-val은 현재 코드 블럭내에서 사용가능 
-nil 또는 nil이 아닐 경우에 사용한다.
 
-</aside>
+`💡 값이 nil이 아니면 val 에 값을 넣어주고 nil이면 return 값을 반환
+val은 현재 코드 블럭내에서 사용가능, nil 또는 nil이 아닐 경우에 사용한다.`
+
+</br>
 
 - Optional형 자동 해제
 
