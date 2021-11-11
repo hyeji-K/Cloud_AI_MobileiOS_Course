@@ -21,19 +21,21 @@
 ### 📚 Detail Contents
 > iOS Programming
 - [Swift 소개 및 변수와 상수](https://github.com/hyeji-K/Cloud_AI_MobileiOS_Course/blob/master/Daily_Study/Swift%20%EC%86%8C%EA%B0%9C%2C%20%EB%B3%80%EC%88%98%EC%99%80%20%EC%83%81%EC%88%98.md)
-- [함수 기본, 조건문, 반복문](https://github.com/hyeji-K/Cloud_AI_MobileiOS_Course/blob/master/Daily_Study/%ED%95%A8%EC%88%98%20%EA%B8%B0%EB%B3%B8%2C%20%EC%A1%B0%EA%B1%B4%EB%AC%B8%2C%20%EB%B0%98%EB%B3%B5%EB%AC%B8.md)
-- [자료형, 함수](https://github.com/hyeji-K/Cloud_AI_MobileiOS_Course/blob/master/Daily_Study/%EC%9E%90%EB%A3%8C%ED%98%95%2C%20%ED%95%A8%EC%88%98.md)
-- Class
-- Structure, 열거형, 옵셔널
-- UIKit Framework
-- UITableView
-- 화면전환
-- Property List
-- AlertViewController
-- Open API
-- Rest API
-- Closure
-- OpenSource
+- [조건문, 반복문](https://github.com/hyeji-K/Cloud_AI_MobileiOS_Course/blob/master/Daily_Study/%EC%A1%B0%EA%B1%B4%EB%AC%B8%2C%20%EB%B0%98%EB%B3%B5%EB%AC%B8.md)
+- [Collections(자료형)](https://github.com/hyeji-K/Cloud_AI_MobileiOS_Course/blob/master/Daily_Study/Collections(%EC%9E%90%EB%A3%8C%ED%98%95).md)
+- [Function(함수)](https://github.com/hyeji-K/Cloud_AI_MobileiOS_Course/blob/master/Daily_Study/Function(%ED%95%A8%EC%88%98).md)
+- [Class, 상속](https://github.com/hyeji-K/Cloud_AI_MobileiOS_Course/blob/master/Daily_Study/class.md)
+- [Structure, 열거형, 옵셔널](https://github.com/hyeji-K/Cloud_AI_MobileiOS_Course/blob/master/Daily_Study/structure.md)
+- [UIKit Framework]()
+- [UITableView]()
+- [화면전환]()
+- [Property List]()
+- [AlertViewController]()
+- [Open API]()
+- [Rest API]()
+- [Closure]()
+- [OpenSource]()
+- [AutoLayout]()
 
 > Back-end
 - DataBase
