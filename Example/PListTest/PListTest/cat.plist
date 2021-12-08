@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>stage_name</key>
+		<string>브숏</string>
+		<key>name</key>
+		<string>브리티시 쇼트헤어</string>
+		<key>image</key>
+		<string>cat1</string>
+	</dict>
+	<dict>
+		<key>stage_name</key>
+		<string>쿤</string>
+		<key>name</key>
+		<string>메이쿤</string>
+		<key>image</key>
+		<string>cat2</string>
+	</dict>
+	<dict>
+		<key>stage_name</key>
+		<string>시암</string>
+		<key>name</key>
+		<string>시암고양이</string>
+		<key>image</key>
+		<string>cat3</string>
+	</dict>
+	<dict>
+		<key>stage_name</key>
+		<string>펠샤</string>
+		<key>name</key>
+		<string>페르시안</string>
+		<key>image</key>
+		<string>cat4</string>
+	</dict>
+	<dict>
+		<key>stage_name</key>
+		<string>렉돌</string>
+		<key>name</key>
+		<string>렉돌고양이</string>
+		<key>image</key>
+		<string>cat5</string>
+	</dict>
+	<dict>
+		<key>stage_name</key>
+		<string>벵골</string>
+		<key>name</key>
+		<string>벵골고양이</string>
+		<key>image</key>
+		<string>cat6</string>
+	</dict>
+	<dict>
+		<key>stage_name</key>
+		<string>코숏</string>
+		<key>name</key>
+		<string>코리안 쇼트헤어</string>
+		<key>image</key>
+		<string>cat7</string>
+	</dict>
+</array>
+</plist>
