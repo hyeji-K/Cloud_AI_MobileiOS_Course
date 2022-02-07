@@ -26,20 +26,49 @@
 - [Function(함수)](https://github.com/hyeji-K/Cloud_AI_MobileiOS_Course/blob/master/Daily_Study/Function(%ED%95%A8%EC%88%98).md)
 - [Class, 상속](https://github.com/hyeji-K/Cloud_AI_MobileiOS_Course/blob/master/Daily_Study/class.md)
 - [Structure, 열거형, 옵셔널](https://github.com/hyeji-K/Cloud_AI_MobileiOS_Course/blob/master/Daily_Study/structure.md)
-- [UIKit Framework]()
-- [UITableView]()
-- [화면전환]()
-- [Property List]()
-- [AlertViewController]()
-- [Open API]()
-- [Rest API]()
-- [Closure]()
-- [OpenSource]()
-- [AutoLayout]()
+- Xcode 소개 및 UIKit
+
+    - UIView, UILabel, UIButton, UISegment, UITextField, UISlider, UISwitch, UIStepper, UIDatePicker
+
+- [UIImageView](https://github.com/hyeji-K/Cloud_AI_MobileiOS_Course/blob/master/Daily_Study/UIImageView.md)
+- UIPickerView
+- [UITableView](https://github.com/hyeji-K/Cloud_AI_MobileiOS_Course/blob/master/Daily_Study/UITableView.md)
+- [화면전환](https://github.com/hyeji-K/Cloud_AI_MobileiOS_Course/blob/master/Daily_Study/%ED%99%94%EB%A9%B4%EC%A0%84%ED%99%98.md)
+- [Property List](https://github.com/hyeji-K/Cloud_AI_MobileiOS_Course/blob/master/Daily_Study/PropertyList.md)
+- [AlertViewController](https://github.com/hyeji-K/Cloud_AI_MobileiOS_Course/blob/master/Daily_Study/AlertViewController.md)
+- UIImagePickerController
+- WKWebView
+- MapView
+- Open API
+    - [실습: Daum 검색 API를 이용한 책검색 앱](https://github.com/hyeji-K/Cloud_AI_MobileiOS_Course/tree/master/Example/BookFinder)
+
+- REST API
+    - 실습: 사전예약의료기관 정보
+- Closure
+- OpenSource
+    - Alamofire
+    - SwiftyJSON
+    - SwiftQRScanner
+    - BarcodeScanner
+    - SDWebImage
+- AutoLayout
+- Codable
+- Life Cycle
+- 동기/비동기 방식
+- [SwiftUI](https://github.com/hyeji-K/Cloud_AI_MobileiOS_Course/tree/master/Example/bookfinderWithSwiftUI)
+    
+    - Label, Button, Image, Slider, Stepper, NavigationView, TabView, 
 
 > Back-end
 - DataBase
+    
+    - SQL CURD (Create, Update, Retrieve(Read), Delete)
+    - 관계형 데이터베이스
+
 - Django
+
+    - Django REST framework
+    - Xcode와 연동
 
 > Python
 - Python 소개 및 개발 환경 설정
@@ -76,3 +105,4 @@
 - 서버리스 백엔드와 프런트엔드 구현 실습
 
 > Team Project
+- [꾸덕 : 구독 서비스 관리 앱](https://github.com/hyeji-K/kkuduck_app)
