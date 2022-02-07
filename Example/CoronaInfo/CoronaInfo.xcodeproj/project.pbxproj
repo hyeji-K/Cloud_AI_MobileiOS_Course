@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		080DC0602717FA2500D64FF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080DC05F2717FA2500D64FF7 /* AppDelegate.swift */; };
+		080DC0622717FA2500D64FF7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080DC0612717FA2500D64FF7 /* SceneDelegate.swift */; };
+		080DC0672717FA2500D64FF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 080DC0652717FA2500D64FF7 /* Main.storyboard */; };
+		080DC0692717FA2800D64FF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 080DC0682717FA2800D64FF7 /* Assets.xcassets */; };
+		080DC06C2717FA2800D64FF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 080DC06A2717FA2800D64FF7 /* LaunchScreen.storyboard */; };
+		080DC0742717FC1700D64FF7 /* CoronaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080DC0732717FC1700D64FF7 /* CoronaTableViewController.swift */; };
+		080DC07627180AA500D64FF7 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080DC07527180AA500D64FF7 /* DetailViewController.swift */; };
+		080DC09E271815AB00D64FF7 /* map_pinup_custom@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 080DC079271815AB00D64FF7 /* map_pinup_custom@3x.png */; };
+		080DC09F271815AB00D64FF7 /* map_pin_custom.png in Resources */ = {isa = PBXBuildFile; fileRef = 080DC07A271815AB00D64FF7 /* map_pin_custom.png */; };
+		080DC0A0271815AB00D64FF7 /* shadow_balloon.png in Resources */ = {isa = PBXBuildFile; fileRef = 080DC07B271815AB00D64FF7 /* shadow_balloon.png */; };
+		080DC0A1271815AB00D64FF7 /* map_pinup.png in Resources */ = {isa = PBXBuildFile; fileRef = 080DC07C271815AB00D64FF7 /* map_pinup.png */; };
+		080DC0A2271815AB00D64FF7 /* detail_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 080DC07D271815AB00D64FF7 /* detail_button.png */; };
+		080DC0A3271815AB00D64FF7 /* map_pin_custom@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 080DC07E271815AB00D64FF7 /* map_pin_custom@3x.png */; };
+		080DC0A4271815AB00D64FF7 /* map_pinup@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 080DC07F271815AB00D64FF7 /* map_pinup@3x.png */; };
+		080DC0A5271815AB00D64FF7 /* map_pin_shadow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 080DC080271815AB00D64FF7 /* map_pin_shadow@3x.png */; };
+		080DC0A6271815AB00D64FF7 /* copyright.png in Resources */ = {isa = PBXBuildFile; fileRef = 080DC081271815AB00D64FF7 /* copyright.png */; };
+		080DC0A7271815AB00D64FF7 /* th_line.png in Resources */ = {isa = PBXBuildFile; fileRef = 080DC082271815AB00D64FF7 /* th_line.png */; };
+		080DC0A8271815AB00D64FF7 /* map_pin_red@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 080DC083271815AB00D64FF7 /* map_pin_red@3x.png */; };
+		080DC0A9271815AB00D64FF7 /* daum_copyright.png in Resources */ = {isa = PBXBuildFile; fileRef = 080DC084271815AB00D64FF7 /* daum_copyright.png */; };
+		080DC0AA271815AB00D64FF7 /* map_pin@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 080DC085271815AB00D64FF7 /* map_pin@3x.png */; };
+		080DC0AB271815AB00D64FF7 /* map_present_tracking.png in Resources */ = {isa = PBXBuildFile; fileRef = 080DC086271815AB00D64FF7 /* map_present_tracking.png */; };
+		080DC0AC271815AB00D64FF7 /* map_pin_red.png in Resources */ = {isa = PBXBuildFile; fileRef = 080DC087271815AB00D64FF7 /* map_pin_red.png */; };
+		080DC0AD271815AB00D64FF7 /* info_box.png in Resources */ = {isa = PBXBuildFile; fileRef = 080DC091271815AB00D64FF7 /* info_box.png */; };
+		080DC0AE271815AB00D64FF7 /* point_sprite.png in Resources */ = {isa = PBXBuildFile; fileRef = 080DC092271815AB00D64FF7 /* point_sprite.png */; };
+		080DC0AF271815AB00D64FF7 /* map_pinup_custom.png in Resources */ = {isa = PBXBuildFile; fileRef = 080DC093271815AB00D64FF7 /* map_pinup_custom.png */; };
+		080DC0B0271815AB00D64FF7 /* info_box_tail.png in Resources */ = {isa = PBXBuildFile; fileRef = 080DC094271815AB00D64FF7 /* info_box_tail.png */; };
+		080DC0B1271815AB00D64FF7 /* noimage256.png in Resources */ = {isa = PBXBuildFile; fileRef = 080DC095271815AB00D64FF7 /* noimage256.png */; };
+		080DC0B2271815AB00D64FF7 /* map_present_direction.png in Resources */ = {isa = PBXBuildFile; fileRef = 080DC096271815AB00D64FF7 /* map_present_direction.png */; };
+		080DC0B3271815AB00D64FF7 /* map_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 080DC097271815AB00D64FF7 /* map_pin.png */; };
+		080DC0B4271815AB00D64FF7 /* map_present.png in Resources */ = {isa = PBXBuildFile; fileRef = 080DC098271815AB00D64FF7 /* map_present.png */; };
+		080DC0B5271815AB00D64FF7 /* noimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 080DC099271815AB00D64FF7 /* noimage.png */; };
+		080DC0B6271815AB00D64FF7 /* map_present_background_update.png in Resources */ = {isa = PBXBuildFile; fileRef = 080DC09A271815AB00D64FF7 /* map_present_background_update.png */; };
+		080DC0B7271815AB00D64FF7 /* daum_th_line.png in Resources */ = {isa = PBXBuildFile; fileRef = 080DC09B271815AB00D64FF7 /* daum_th_line.png */; };
+		080DC0B8271815AB00D64FF7 /* map_pin_shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = 080DC09C271815AB00D64FF7 /* map_pin_shadow.png */; };
+		080DC0B9271815AB00D64FF7 /* DaumMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 080DC09D271815AB00D64FF7 /* DaumMap.framework */; };
+		080DC0BB2718162600D64FF7 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 080DC0BA2718162600D64FF7 /* Metal.framework */; };
+		080DC0BD2718163C00D64FF7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 080DC0BC2718163C00D64FF7 /* SystemConfiguration.framework */; };
+		080DC0BF2718165F00D64FF7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 080DC0BE2718165F00D64FF7 /* CoreLocation.framework */; };
+		080DC0C12718166C00D64FF7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 080DC0C02718166C00D64FF7 /* QuartzCore.framework */; };
+		080DC0C32718169600D64FF7 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 080DC0C22718168E00D64FF7 /* libc++.tbd */; };
+		080DC0C5271816AC00D64FF7 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 080DC0C4271816A500D64FF7 /* libxml2.tbd */; };
+		080DC0C7271816C700D64FF7 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 080DC0C6271816BC00D64FF7 /* libsqlite3.tbd */; };
+		B1D1327D73BD07CE73DBC924 /* Pods_CoronaInfo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EB3A9974083F4A1F120D6A5 /* Pods_CoronaInfo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		080DC05C2717FA2500D64FF7 /* CoronaInfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoronaInfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		080DC05F2717FA2500D64FF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		080DC0612717FA2500D64FF7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		080DC0662717FA2500D64FF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		080DC0682717FA2800D64FF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		080DC06B2717FA2800D64FF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		080DC06D2717FA2800D64FF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		080DC0732717FC1700D64FF7 /* CoronaTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoronaTableViewController.swift; sourceTree = "<group>"; };
+		080DC07527180AA500D64FF7 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		080DC079271815AB00D64FF7 /* map_pinup_custom@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_pinup_custom@3x.png"; sourceTree = "<group>"; };
+		080DC07A271815AB00D64FF7 /* map_pin_custom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_pin_custom.png; sourceTree = "<group>"; };
+		080DC07B271815AB00D64FF7 /* shadow_balloon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shadow_balloon.png; sourceTree = "<group>"; };
+		080DC07C271815AB00D64FF7 /* map_pinup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_pinup.png; sourceTree = "<group>"; };
+		080DC07D271815AB00D64FF7 /* detail_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = detail_button.png; sourceTree = "<group>"; };
+		080DC07E271815AB00D64FF7 /* map_pin_custom@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_pin_custom@3x.png"; sourceTree = "<group>"; };
+		080DC07F271815AB00D64FF7 /* map_pinup@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_pinup@3x.png"; sourceTree = "<group>"; };
+		080DC080271815AB00D64FF7 /* map_pin_shadow@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_pin_shadow@3x.png"; sourceTree = "<group>"; };
+		080DC081271815AB00D64FF7 /* copyright.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = copyright.png; sourceTree = "<group>"; };
+		080DC082271815AB00D64FF7 /* th_line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = th_line.png; sourceTree = "<group>"; };
+		080DC083271815AB00D64FF7 /* map_pin_red@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_pin_red@3x.png"; sourceTree = "<group>"; };
+		080DC084271815AB00D64FF7 /* daum_copyright.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = daum_copyright.png; sourceTree = "<group>"; };
+		080DC085271815AB00D64FF7 /* map_pin@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_pin@3x.png"; sourceTree = "<group>"; };
+		080DC086271815AB00D64FF7 /* map_present_tracking.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_present_tracking.png; sourceTree = "<group>"; };
+		080DC087271815AB00D64FF7 /* map_pin_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_pin_red.png; sourceTree = "<group>"; };
+		080DC089271815AB00D64FF7 /* MTMapPOIItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMapPOIItem.h; sourceTree = "<group>"; };
+		080DC08A271815AB00D64FF7 /* MTMapCameraUpdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMapCameraUpdate.h; sourceTree = "<group>"; };
+		080DC08B271815AB00D64FF7 /* MTMapReverseGeoCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMapReverseGeoCoder.h; sourceTree = "<group>"; };
+		080DC08C271815AB00D64FF7 /* MTMapPolyline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMapPolyline.h; sourceTree = "<group>"; };
+		080DC08D271815AB00D64FF7 /* MTMapLocationMarkerItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMapLocationMarkerItem.h; sourceTree = "<group>"; };
+		080DC08E271815AB00D64FF7 /* MTMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMapView.h; sourceTree = "<group>"; };
+		080DC08F271815AB00D64FF7 /* MTMapGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMapGeometry.h; sourceTree = "<group>"; };
+		080DC090271815AB00D64FF7 /* MTMapCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMapCircle.h; sourceTree = "<group>"; };
+		080DC091271815AB00D64FF7 /* info_box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info_box.png; sourceTree = "<group>"; };
+		080DC092271815AB00D64FF7 /* point_sprite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = point_sprite.png; sourceTree = "<group>"; };
+		080DC093271815AB00D64FF7 /* map_pinup_custom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_pinup_custom.png; sourceTree = "<group>"; };
+		080DC094271815AB00D64FF7 /* info_box_tail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info_box_tail.png; sourceTree = "<group>"; };
+		080DC095271815AB00D64FF7 /* noimage256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noimage256.png; sourceTree = "<group>"; };
+		080DC096271815AB00D64FF7 /* map_present_direction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_present_direction.png; sourceTree = "<group>"; };
+		080DC097271815AB00D64FF7 /* map_pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_pin.png; sourceTree = "<group>"; };
+		080DC098271815AB00D64FF7 /* map_present.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_present.png; sourceTree = "<group>"; };
+		080DC099271815AB00D64FF7 /* noimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noimage.png; sourceTree = "<group>"; };
+		080DC09A271815AB00D64FF7 /* map_present_background_update.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_present_background_update.png; sourceTree = "<group>"; };
+		080DC09B271815AB00D64FF7 /* daum_th_line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = daum_th_line.png; sourceTree = "<group>"; };
+		080DC09C271815AB00D64FF7 /* map_pin_shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_pin_shadow.png; sourceTree = "<group>"; };
+		080DC09D271815AB00D64FF7 /* DaumMap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DaumMap.framework; sourceTree = "<group>"; };
+		080DC0BA2718162600D64FF7 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
+		080DC0BC2718163C00D64FF7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		080DC0BE2718165F00D64FF7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		080DC0C02718166C00D64FF7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		080DC0C22718168E00D64FF7 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		080DC0C4271816A500D64FF7 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		080DC0C6271816BC00D64FF7 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		080DC0C82718172500D64FF7 /* KakaoMap_bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KakaoMap_bridge.h; sourceTree = "<group>"; };
+		5EB3A9974083F4A1F120D6A5 /* Pods_CoronaInfo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoronaInfo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE7B3980C9E99F9130756DAE /* Pods-CoronaInfo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoronaInfo.release.xcconfig"; path = "Target Support Files/Pods-CoronaInfo/Pods-CoronaInfo.release.xcconfig"; sourceTree = "<group>"; };
+		C71F8BB047268D386D3ADE13 /* Pods-CoronaInfo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoronaInfo.debug.xcconfig"; path = "Target Support Files/Pods-CoronaInfo/Pods-CoronaInfo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		080DC0592717FA2500D64FF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				080DC0B9271815AB00D64FF7 /* DaumMap.framework in Frameworks */,
+				080DC0C32718169600D64FF7 /* libc++.tbd in Frameworks */,
+				080DC0BF2718165F00D64FF7 /* CoreLocation.framework in Frameworks */,
+				080DC0C7271816C700D64FF7 /* libsqlite3.tbd in Frameworks */,
+				080DC0C12718166C00D64FF7 /* QuartzCore.framework in Frameworks */,
+				080DC0BB2718162600D64FF7 /* Metal.framework in Frameworks */,
+				080DC0C5271816AC00D64FF7 /* libxml2.tbd in Frameworks */,
+				080DC0BD2718163C00D64FF7 /* SystemConfiguration.framework in Frameworks */,
+				B1D1327D73BD07CE73DBC924 /* Pods_CoronaInfo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080DC0532717FA2500D64FF7 = {
+			isa = PBXGroup;
+			children = (
+				080DC05E2717FA2500D64FF7 /* CoronaInfo */,
+				080DC05D2717FA2500D64FF7 /* Products */,
+				51D80C9511DBF652BA0E5AD9 /* Pods */,
+				F7C2E9708472F5727B736C2C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		080DC05D2717FA2500D64FF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				080DC05C2717FA2500D64FF7 /* CoronaInfo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		080DC05E2717FA2500D64FF7 /* CoronaInfo */ = {
+			isa = PBXGroup;
+			children = (
+				080DC05F2717FA2500D64FF7 /* AppDelegate.swift */,
+				080DC0612717FA2500D64FF7 /* SceneDelegate.swift */,
+				080DC0652717FA2500D64FF7 /* Main.storyboard */,
+				080DC0682717FA2800D64FF7 /* Assets.xcassets */,
+				080DC06A2717FA2800D64FF7 /* LaunchScreen.storyboard */,
+				080DC077271815AB00D64FF7 /* DaumMap.embeddedframework */,
+				080DC06D2717FA2800D64FF7 /* Info.plist */,
+				080DC0732717FC1700D64FF7 /* CoronaTableViewController.swift */,
+				080DC07527180AA500D64FF7 /* DetailViewController.swift */,
+				080DC0C82718172500D64FF7 /* KakaoMap_bridge.h */,
+			);
+			path = CoronaInfo;
+			sourceTree = "<group>";
+		};
+		080DC077271815AB00D64FF7 /* DaumMap.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				080DC078271815AB00D64FF7 /* Resources */,
+				080DC09D271815AB00D64FF7 /* DaumMap.framework */,
+			);
+			path = DaumMap.embeddedframework;
+			sourceTree = "<group>";
+		};
+		080DC078271815AB00D64FF7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				080DC079271815AB00D64FF7 /* map_pinup_custom@3x.png */,
+				080DC07A271815AB00D64FF7 /* map_pin_custom.png */,
+				080DC07B271815AB00D64FF7 /* shadow_balloon.png */,
+				080DC07C271815AB00D64FF7 /* map_pinup.png */,
+				080DC07D271815AB00D64FF7 /* detail_button.png */,
+				080DC07E271815AB00D64FF7 /* map_pin_custom@3x.png */,
+				080DC07F271815AB00D64FF7 /* map_pinup@3x.png */,
+				080DC080271815AB00D64FF7 /* map_pin_shadow@3x.png */,
+				080DC081271815AB00D64FF7 /* copyright.png */,
+				080DC082271815AB00D64FF7 /* th_line.png */,
+				080DC083271815AB00D64FF7 /* map_pin_red@3x.png */,
+				080DC084271815AB00D64FF7 /* daum_copyright.png */,
+				080DC085271815AB00D64FF7 /* map_pin@3x.png */,
+				080DC086271815AB00D64FF7 /* map_present_tracking.png */,
+				080DC087271815AB00D64FF7 /* map_pin_red.png */,
+				080DC088271815AB00D64FF7 /* Headers */,
+				080DC091271815AB00D64FF7 /* info_box.png */,
+				080DC092271815AB00D64FF7 /* point_sprite.png */,
+				080DC093271815AB00D64FF7 /* map_pinup_custom.png */,
+				080DC094271815AB00D64FF7 /* info_box_tail.png */,
+				080DC095271815AB00D64FF7 /* noimage256.png */,
+				080DC096271815AB00D64FF7 /* map_present_direction.png */,
+				080DC097271815AB00D64FF7 /* map_pin.png */,
+				080DC098271815AB00D64FF7 /* map_present.png */,
+				080DC099271815AB00D64FF7 /* noimage.png */,
+				080DC09A271815AB00D64FF7 /* map_present_background_update.png */,
+				080DC09B271815AB00D64FF7 /* daum_th_line.png */,
+				080DC09C271815AB00D64FF7 /* map_pin_shadow.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		080DC088271815AB00D64FF7 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				080DC089271815AB00D64FF7 /* MTMapPOIItem.h */,
+				080DC08A271815AB00D64FF7 /* MTMapCameraUpdate.h */,
+				080DC08B271815AB00D64FF7 /* MTMapReverseGeoCoder.h */,
+				080DC08C271815AB00D64FF7 /* MTMapPolyline.h */,
+				080DC08D271815AB00D64FF7 /* MTMapLocationMarkerItem.h */,
+				080DC08E271815AB00D64FF7 /* MTMapView.h */,
+				080DC08F271815AB00D64FF7 /* MTMapGeometry.h */,
+				080DC090271815AB00D64FF7 /* MTMapCircle.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		51D80C9511DBF652BA0E5AD9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C71F8BB047268D386D3ADE13 /* Pods-CoronaInfo.debug.xcconfig */,
+				AE7B3980C9E99F9130756DAE /* Pods-CoronaInfo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F7C2E9708472F5727B736C2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				080DC0C6271816BC00D64FF7 /* libsqlite3.tbd */,
+				080DC0C4271816A500D64FF7 /* libxml2.tbd */,
+				080DC0C22718168E00D64FF7 /* libc++.tbd */,
+				080DC0C02718166C00D64FF7 /* QuartzCore.framework */,
+				080DC0BE2718165F00D64FF7 /* CoreLocation.framework */,
+				080DC0BC2718163C00D64FF7 /* SystemConfiguration.framework */,
+				080DC0BA2718162600D64FF7 /* Metal.framework */,
+				5EB3A9974083F4A1F120D6A5 /* Pods_CoronaInfo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		080DC05B2717FA2500D64FF7 /* CoronaInfo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 080DC0702717FA2800D64FF7 /* Build configuration list for PBXNativeTarget "CoronaInfo" */;
+			buildPhases = (
+				43752B57208CFBE0CFAE53FC /* [CP] Check Pods Manifest.lock */,
+				080DC0582717FA2500D64FF7 /* Sources */,
+				080DC0592717FA2500D64FF7 /* Frameworks */,
+				080DC05A2717FA2500D64FF7 /* Resources */,
+				D8A8AA91FA465DB2F73C6537 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoronaInfo;
+			productName = CoronaInfo;
+			productReference = 080DC05C2717FA2500D64FF7 /* CoronaInfo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		080DC0542717FA2500D64FF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					080DC05B2717FA2500D64FF7 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 080DC0572717FA2500D64FF7 /* Build configuration list for PBXProject "CoronaInfo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 080DC0532717FA2500D64FF7;
+			productRefGroup = 080DC05D2717FA2500D64FF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				080DC05B2717FA2500D64FF7 /* CoronaInfo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		080DC05A2717FA2500D64FF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				080DC0B4271815AB00D64FF7 /* map_present.png in Resources */,
+				080DC0AA271815AB00D64FF7 /* map_pin@3x.png in Resources */,
+				080DC0A8271815AB00D64FF7 /* map_pin_red@3x.png in Resources */,
+				080DC0B3271815AB00D64FF7 /* map_pin.png in Resources */,
+				080DC0AC271815AB00D64FF7 /* map_pin_red.png in Resources */,
+				080DC09E271815AB00D64FF7 /* map_pinup_custom@3x.png in Resources */,
+				080DC0A6271815AB00D64FF7 /* copyright.png in Resources */,
+				080DC0A5271815AB00D64FF7 /* map_pin_shadow@3x.png in Resources */,
+				080DC06C2717FA2800D64FF7 /* LaunchScreen.storyboard in Resources */,
+				080DC0A9271815AB00D64FF7 /* daum_copyright.png in Resources */,
+				080DC0AD271815AB00D64FF7 /* info_box.png in Resources */,
+				080DC0A3271815AB00D64FF7 /* map_pin_custom@3x.png in Resources */,
+				080DC0B8271815AB00D64FF7 /* map_pin_shadow.png in Resources */,
+				080DC0AB271815AB00D64FF7 /* map_present_tracking.png in Resources */,
+				080DC0A2271815AB00D64FF7 /* detail_button.png in Resources */,
+				080DC0B5271815AB00D64FF7 /* noimage.png in Resources */,
+				080DC0A7271815AB00D64FF7 /* th_line.png in Resources */,
+				080DC0B0271815AB00D64FF7 /* info_box_tail.png in Resources */,
+				080DC09F271815AB00D64FF7 /* map_pin_custom.png in Resources */,
+				080DC0AF271815AB00D64FF7 /* map_pinup_custom.png in Resources */,
+				080DC0A4271815AB00D64FF7 /* map_pinup@3x.png in Resources */,
+				080DC0AE271815AB00D64FF7 /* point_sprite.png in Resources */,
+				080DC0B6271815AB00D64FF7 /* map_present_background_update.png in Resources */,
+				080DC0B2271815AB00D64FF7 /* map_present_direction.png in Resources */,
+				080DC0B1271815AB00D64FF7 /* noimage256.png in Resources */,
+				080DC0A0271815AB00D64FF7 /* shadow_balloon.png in Resources */,
+				080DC0692717FA2800D64FF7 /* Assets.xcassets in Resources */,
+				080DC0672717FA2500D64FF7 /* Main.storyboard in Resources */,
+				080DC0B7271815AB00D64FF7 /* daum_th_line.png in Resources */,
+				080DC0A1271815AB00D64FF7 /* map_pinup.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		43752B57208CFBE0CFAE53FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoronaInfo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8A8AA91FA465DB2F73C6537 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoronaInfo/Pods-CoronaInfo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoronaInfo/Pods-CoronaInfo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CoronaInfo/Pods-CoronaInfo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		080DC0582717FA2500D64FF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				080DC0742717FC1700D64FF7 /* CoronaTableViewController.swift in Sources */,
+				080DC0602717FA2500D64FF7 /* AppDelegate.swift in Sources */,
+				080DC0622717FA2500D64FF7 /* SceneDelegate.swift in Sources */,
+				080DC07627180AA500D64FF7 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		080DC0652717FA2500D64FF7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				080DC0662717FA2500D64FF7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		080DC06A2717FA2800D64FF7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				080DC06B2717FA2800D64FF7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		080DC06E2717FA2800D64FF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		080DC06F2717FA2800D64FF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		080DC0712717FA2800D64FF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C71F8BB047268D386D3ADE13 /* Pods-CoronaInfo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CZ4858BW64;
+				EXCLUDED_ARCHS = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CoronaInfo/DaumMap.embeddedframework",
+				);
+				INFOPLIST_FILE = CoronaInfo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kr.go.womansup.late2021.khj.CoronaInfo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/khyeji/Documents/ios_dev_course_2021_08/CoronaInfo/CoronaInfo/KakaoMap_bridge.h;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		080DC0722717FA2800D64FF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE7B3980C9E99F9130756DAE /* Pods-CoronaInfo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CZ4858BW64;
+				EXCLUDED_ARCHS = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CoronaInfo/DaumMap.embeddedframework",
+				);
+				INFOPLIST_FILE = CoronaInfo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kr.go.womansup.late2021.khj.CoronaInfo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/khyeji/Documents/ios_dev_course_2021_08/CoronaInfo/CoronaInfo/KakaoMap_bridge.h;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		080DC0572717FA2500D64FF7 /* Build configuration list for PBXProject "CoronaInfo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				080DC06E2717FA2800D64FF7 /* Debug */,
+				080DC06F2717FA2800D64FF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		080DC0702717FA2800D64FF7 /* Build configuration list for PBXNativeTarget "CoronaInfo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				080DC0712717FA2800D64FF7 /* Debug */,
+				080DC0722717FA2800D64FF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 080DC0542717FA2500D64FF7 /* Project object */;
+}
