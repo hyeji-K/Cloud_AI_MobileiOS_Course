@@ -54,8 +54,8 @@
 - AutoLayout
 - Core Data
 - Codable
-- Life Cycle
-- 동기/비동기 방식
+- [Life Cycle](https://github.com/hyeji-K/Cloud_AI_MobileiOS_Course/blob/master/Daily_Study/Life_Cycle.md)
+- [동기/비동기 방식](https://github.com/hyeji-K/Cloud_AI_MobileiOS_Course/blob/master/Daily_Study/%EB%8F%99%EA%B8%B0_%EB%B9%84%EB%8F%99%EA%B8%B0%20%EB%B0%A9%EC%8B%9D.md)
 - [SwiftUI](https://github.com/hyeji-K/Cloud_AI_MobileiOS_Course/tree/master/Example/bookfinderWithSwiftUI)
     
     - Label, Button, Image, Slider, Stepper, NavigationView, TabView, 
@@ -63,8 +63,8 @@
 > Back-end
 - DataBase
     
-    - SQL CURD (Create, Update, Retrieve(Read), Delete)
-    - 관계형 데이터베이스
+    - [SQL CURD (Create, Update, Retrieve(Read), Delete)](https://github.com/hyeji-K/Cloud_AI_MobileiOS_Course/blob/master/Daily_Study/DataBase.md)
+    - [관계형 데이터베이스](https://github.com/hyeji-K/Cloud_AI_MobileiOS_Course/blob/master/Daily_Study/RelationalDatabase.md)
 
 - Django
 
