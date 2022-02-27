@@ -40,10 +40,10 @@
 - WKWebView
 - MapView
 - Open API
-    - [실습: Daum 검색 API를 이용한 책검색 앱](https://github.com/hyeji-K/Cloud_AI_MobileiOS_Course/tree/master/Example/BookFinder)
+    - [실습: Daum 검색 API를 이용한 책검색 앱](https://github.com/hyeji-K/Cloud_AI_MobileiOS_Course/blob/master/Example/README.md)
 
 - REST API
-    - [실습: 사전예약의료기관 정보](https://github.com/hyeji-K/Cloud_AI_MobileiOS_Course/tree/master/Example/CoronaInfo)
+    - [실습: 사전예약의료기관 정보](https://github.com/hyeji-K/Cloud_AI_MobileiOS_Course/blob/master/Example/README.md)
 - Closure
 - [OpenSource](https://github.com/hyeji-K/Cloud_AI_MobileiOS_Course/blob/master/Daily_Study/OpenSource.md)
     - Alamofire
