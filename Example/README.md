@@ -1,10 +1,12 @@
 # 실습 프로젝트
 
-### BookFinder
-![BookFinder](https://github.com/hyeji-K/Cloud_AI_MobileiOS_Course/blob/master/image/BookFinder.png)
+## BookFinder
+<div align="center">
+  <img width="400" src="https://github.com/hyeji-K/Cloud_AI_MobileiOS_Course/blob/master/image/BookFinder.png" alt="BookFinder">
+<div>
 
-- 다음 책검색 OPEN API 사용
 >  About BookFinder
+- 다음 책검색 OPEN API 사용
 - 검색 기능
 - 페이지 이동 기능
 - 상세 정보 확인 기능
