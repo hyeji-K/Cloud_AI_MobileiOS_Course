@@ -1,6 +1,6 @@
 # 실습 프로젝트
 
-### BookFinder
+## BookFinder
 ![BookFinder](https://github.com/hyeji-K/Cloud_AI_MobileiOS_Course/blob/master/image/BookFinder.png)
 
 >  About BookFinder
@@ -10,9 +10,9 @@
 - 상세 정보 확인 기능
 
 
-### CoronaInfo
+## CoronaInfo
 <div align="center">
-<img width="400" src="https://github.com/hyeji-K/Cloud_AI_MobileiOS_Course/blob/master/image/coronaInfo.gif" alt="CoronaInfo">
+<img width="300" src="https://github.com/hyeji-K/Cloud_AI_MobileiOS_Course/blob/master/image/coronaInfo.gif" alt="CoronaInfo">
 </div>
 
 > About CoronaInfo
