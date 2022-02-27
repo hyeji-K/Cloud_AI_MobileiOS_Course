@@ -84,17 +84,31 @@ class MainTableViewController: UITableViewController, UISearchBarDelegate {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         
+        let imageView = cell.viewWithTag(1) as? UIImageView
+        let titleLabel = cell.viewWithTag(2) as? UILabel
+        let authorsLabel = cell.viewWithTag(3) as? UILabel
+        let priceLabel = cell.viewWithTag(4) as? UILabel
+        let contentsLabel = cell.viewWithTag(5) as? UILabel
+        
         guard let books = self.books else { return cell }
         let book = books[indexPath.row]
         let title = book["title"] as? String
-        cell.textLabel?.text = title
+        titleLabel?.text = title
+        if let authors = book["authors"] as? Array<String> {
+            authorsLabel?.text = authors.joined(separator: ",")
+        }
+        
+        let price = book["price"] as! Int
+        priceLabel?.text = "\(price)원"
+        let contents = book["contents"] as? String
+        contentsLabel?.text = contents
         
         if let imageURL = book["thumbnail"] as? String,
            let url = URL(string: imageURL) {
             do {
                 let data = try Data(contentsOf: url)
                 let cover = UIImage(data: data)
-                cell.imageView?.image = cover
+                imageView?.image = cover
             } catch {
                 print("thumbnail down failed")
             }
