@@ -2,8 +2,8 @@
 
 ## BookFinder
 <div align="center">
-  <img width="400" src="https://github.com/hyeji-K/Cloud_AI_MobileiOS_Course/blob/master/image/BookFinder.png" alt="BookFinder">
-<div>
+  <img width="800" src="https://github.com/hyeji-K/Cloud_AI_MobileiOS_Course/blob/master/image/BookFinder.png" alt="BookFinder">
+</div>
 
 >  About BookFinder
 - 다음 책검색 OPEN API 사용
