@@ -11,7 +11,7 @@ import SwiftyJSON
 
 class CoronaTableViewController: UITableViewController, UISearchBarDelegate {
     var hospitals: [[String:Any]]?
-    let serviceKey = "CfV7Sjrpo8eMoHIx0QZ6rAN0jVxCz2tck6gx5Fr0rvaMEKV+/iwBNhGpt2FN2tYV5bxnqoSCmZ/XUFoyvCI27A=="
+    let serviceKey = ""
 
     @IBOutlet weak var searchBar: UISearchBar!
     
@@ -24,7 +24,6 @@ class CoronaTableViewController: UITableViewController, UISearchBarDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         searchBar.delegate = self
-        
     }
     
     func search(query: String) {
@@ -65,7 +64,6 @@ class CoronaTableViewController: UITableViewController, UISearchBarDelegate {
         }
     }
 
-    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         
@@ -75,8 +73,6 @@ class CoronaTableViewController: UITableViewController, UISearchBarDelegate {
 
         return cell
     }
-    
-
     
     // MARK: - Navigation
 
@@ -97,8 +93,6 @@ class CoronaTableViewController: UITableViewController, UISearchBarDelegate {
 //                }
 //            }
 //        }
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
     }
     
 

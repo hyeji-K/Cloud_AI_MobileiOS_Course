@@ -11,11 +11,10 @@ import SwiftyJSON
 
 class DetailViewController: UIViewController {
     var hospitals: [String:Any]?
-    let apiKey = "KakaoAK b4a954760f270b5cd1ee60fb17a1dcec"
+    let apiKey = "KakaoAK "
 //    var lat: String?
 //    var lon: String?
     let mapView: MTMapView = MTMapView()
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -47,7 +46,6 @@ class DetailViewController: UIViewController {
                 
 //                print(self.lat, self.lon)
                 
-                
                 // mapView
                 let pointGeo = MTMapPointGeo(latitude: lat, longitude: lon)
                 let point = MTMapPoint(geoCoord: pointGeo)
@@ -73,16 +71,4 @@ class DetailViewController: UIViewController {
             }
         }
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
